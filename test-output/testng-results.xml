@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28053" started-at="2021-10-09T15:55:36Z" finished-at="2021-10-09T15:56:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28053" started-at="2021-10-09T15:55:36Z" finished-at="2021-10-09T15:56:04Z">
+      <class name="com.test.AdminTest">
+        <test-method status="PASS" signature="adminTest()[pri:0, instance:com.test.AdminTest@5e5792a0]" name="adminTest" duration-ms="2246" started-at="2021-10-09T21:26:02Z" finished-at="2021-10-09T21:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminTest -->
+      </class> <!-- com.test.AdminTest -->
+      <class name="com.test.LoginTest">
+        <test-method status="PASS" signature="browserInit()[pri:0, instance:com.test.LoginTest@3ffc5af1]" name="browserInit" is-config="true" duration-ms="10794" started-at="2021-10-09T21:25:25Z" finished-at="2021-10-09T21:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInit -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@3ffc5af1]" name="loginTest" duration-ms="6704" started-at="2021-10-09T21:25:38Z" data-provider="readExcel" finished-at="2021-10-09T21:25:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uname ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@3ffc5af1]" name="loginTest" duration-ms="5539" started-at="2021-10-09T21:25:45Z" data-provider="readExcel" finished-at="2021-10-09T21:25:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@3ffc5af1]" name="loginTest" duration-ms="11143" started-at="2021-10-09T21:25:50Z" data-provider="readExcel" finished-at="2021-10-09T21:26:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.LoginTest@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="153" started-at="2021-10-09T21:26:04Z" finished-at="2021-10-09T21:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
